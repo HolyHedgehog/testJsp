@@ -2,6 +2,6 @@
 <body>
 <html>
     <%@ include file ='/menu.jsp' %>
-<h6>MENU2!</h6>
+<h3>MENU2!</h3>
 </body>
 </html>
