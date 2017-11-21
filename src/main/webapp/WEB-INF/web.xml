@@ -2,24 +2,14 @@
   Web Application 2.3//EN' 'http://java.sun.com/dtd/web-app_2_3.dtd'>
 
 <web-app>
-
-    <servlet>
-        <servlet-name>hello</servlet-name>
-        <servlet-class>com.hedgehog.testJsp.MyFirstServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>hello</servlet-name>
-        <url-pattern>/hello</url-pattern>
-    </servlet-mapping>
-
     <servlet>
         <servlet-name>home</servlet-name>
-        <servlet-class>com.hedgehog.testJsp.HomeServlet</servlet-class>
+        <servlet-class>com.hedgehog.jsp.HomeServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>home</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
+
 </web-app>

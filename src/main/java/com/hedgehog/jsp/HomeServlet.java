@@ -1,4 +1,4 @@
-package com.hedgehog.testJsp;
+package com.hedgehog.jsp;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

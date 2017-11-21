@@ -1,7 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-   pageEncoding="UTF-8"%>
+<html>
 <link rel="stylesheet" href="tacit.css"/>
-
+<body>
 <div style="padding: 5px;">
 
    <a href="menuItem1.jsp">menu1</a>
@@ -12,3 +11,5 @@
 
 
 </div>
+</body>
+</html>

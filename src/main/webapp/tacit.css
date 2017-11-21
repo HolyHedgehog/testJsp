@@ -430,7 +430,7 @@ figure img {
         width: auto
     }
 
-    x:-moz-any-link {
+    #x:-moz-any-link {
         display: table-cell
     }
 }
