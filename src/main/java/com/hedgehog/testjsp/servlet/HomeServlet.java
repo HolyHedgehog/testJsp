@@ -1,4 +1,4 @@
-package com.hedgehog.jsp;
+package com.hedgehog.testjsp.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -8,6 +8,6 @@ import java.io.IOException;
 
 public class HomeServlet extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        getServletContext().getRequestDispatcher("/home.jsp").forward(req, resp);
+        getServletContext().getRequestDispatcher("/pages/home.jsp").forward(req, resp);
     }
 }

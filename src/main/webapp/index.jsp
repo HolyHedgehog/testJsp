@@ -1,1 +1,1 @@
-<%@ include file='/home.jsp' %>
+<%@ include file='/pages/home.jsp' %>

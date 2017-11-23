@@ -1,3 +1,62 @@
-target/
-.idea/
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+######################
+# NetBeans
+######################
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+######################
+# IDEA
+######################
 *.iml
+*.ipr
+*.iws
+.idea/
+atlassian-ide-plugin.xml
+
+
+######################
+# Eclipse
+######################
+
+*.pydevproject
+.project
+.metadata
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+
+
+# Maven
+log/
+target/
