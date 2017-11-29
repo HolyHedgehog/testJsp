@@ -5,7 +5,7 @@
     <artifactId>test_webapp_jsp</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>Simple Maven Webapp</name>
+    <name>TestJspApp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -40,13 +40,12 @@
             <!--<artifactId>ext-js</artifactId>-->
             <!--<version>3.4.0</version>-->
         <!--</dependency>-->
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>extjs</artifactId>
-            <version>4.2.0</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.webjars</groupId>-->
+            <!--<artifactId>extjs</artifactId>-->
+            <!--<version>4.2.0</version>-->
+        <!--</dependency>-->
     </dependencies>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

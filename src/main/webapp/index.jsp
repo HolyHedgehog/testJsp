@@ -1,10 +1,10 @@
 <html>
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resources/ext/resources/css/ext-all.css">
+    <script type="text/javascript" src="<%=request.getContextPath()%>/resources/ext/ext-all.js"></script>
 </head>
 <body>
-<div style="padding: 5px;">
-    <jsp:forward page="/pages/home.jsp"/>
+<jsp:forward page="/pages/home.jsp"/>
 </div>
 </body>
 </html>
